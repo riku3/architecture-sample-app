@@ -16,6 +16,9 @@
 		32027668265239A8005DC905 /* MVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32027667265239A8005DC905 /* MVCModel.swift */; };
 		3202766B26523AD1005DC905 /* MVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202766A26523AD1005DC905 /* MVCController.swift */; };
 		3202766E26523BFB005DC905 /* MVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202766D26523BFB005DC905 /* MVCView.swift */; };
+		320276722653371F005DC905 /* CocoaMVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320276712653371E005DC905 /* CocoaMVCModel.swift */; };
+		32027676265337C0005DC905 /* CocoaMVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32027675265337C0005DC905 /* CocoaMVCView.swift */; };
+		3202767926533899005DC905 /* CocoaMVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202767826533899005DC905 /* CocoaMVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		32027667265239A8005DC905 /* MVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCModel.swift; sourceTree = "<group>"; };
 		3202766A26523AD1005DC905 /* MVCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCController.swift; sourceTree = "<group>"; };
 		3202766D26523BFB005DC905 /* MVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCView.swift; sourceTree = "<group>"; };
+		320276712653371E005DC905 /* CocoaMVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaMVCModel.swift; sourceTree = "<group>"; };
+		32027675265337C0005DC905 /* CocoaMVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaMVCView.swift; sourceTree = "<group>"; };
+		3202767826533899005DC905 /* CocoaMVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaMVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		320276502652377C005DC905 /* architecture-sample-app */ = {
 			isa = PBXGroup;
 			children = (
+				3202767026533707005DC905 /* CocoaMVC */,
 				3202766626523991005DC905 /* MVC */,
 				320276512652377C005DC905 /* AppDelegate.swift */,
 				320276532652377C005DC905 /* SceneDelegate.swift */,
@@ -82,6 +89,16 @@
 				3202766D26523BFB005DC905 /* MVCView.swift */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		3202767026533707005DC905 /* CocoaMVC */ = {
+			isa = PBXGroup;
+			children = (
+				320276712653371E005DC905 /* CocoaMVCModel.swift */,
+				32027675265337C0005DC905 /* CocoaMVCView.swift */,
+				3202767826533899005DC905 /* CocoaMVCViewController.swift */,
+			);
+			path = CocoaMVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320276722653371F005DC905 /* CocoaMVCModel.swift in Sources */,
 				32027668265239A8005DC905 /* MVCModel.swift in Sources */,
 				3202766B26523AD1005DC905 /* MVCController.swift in Sources */,
+				3202767926533899005DC905 /* CocoaMVCViewController.swift in Sources */,
+				32027676265337C0005DC905 /* CocoaMVCView.swift in Sources */,
 				320276562652377C005DC905 /* ViewController.swift in Sources */,
 				3202766E26523BFB005DC905 /* MVCView.swift in Sources */,
 				320276522652377C005DC905 /* AppDelegate.swift in Sources */,
